@@ -1,0 +1,48 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "a017020aa02ad7b5331c802d8b009ff8",
+    "packages": [
+        {
+            "name": "mvc/framework",
+            "version": "1.0",
+            "dist": {
+                "type": "path",
+                "url": "framework",
+                "reference": "75f30878b074dee247a86ef5909f4f17ed0365b7"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "framework\\": "elframework/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "omar osama"
+                }
+            ],
+            "description": "framework",
+            "transport-options": {
+                "relative": true
+            }
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {},
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=8.2"
+    },
+    "platform-dev": {},
+    "plugin-api-version": "2.9.0"
+}

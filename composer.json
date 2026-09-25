@@ -1,0 +1,28 @@
+{
+    "name": "mvc/mvc-project",
+    "description": "This is the first mvc project",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Mvc\\MvcProject\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "omar osama"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=8.2",
+        "mvc/framework": "1.0"
+    },
+    "version": "1.0",
+    "repositories": [
+        {
+            "type": "path",
+            "url": "framework"
+        }
+    ]
+}

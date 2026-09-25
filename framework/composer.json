@@ -1,0 +1,19 @@
+{
+    "name": "mvc/framework",
+    "description": "framework",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "framework\\": "elframework/"
+        }
+    },
+    "authors": [
+        {
+            "name": "omar osama"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "version": "1.0"
+}
